@@ -102,10 +102,6 @@
             <Form>OptomCharts</Form>
             <FormType>dfm</FormType>
         </DCCReference>
-        <DCCReference Include="Settings_u.pas">
-            <Form>frmSettings</Form>
-            <FormType>dfm</FormType>
-        </DCCReference>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
