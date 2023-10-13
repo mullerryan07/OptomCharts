@@ -11,6 +11,9 @@ uses
 
 type
   TOptomCharts = class(TForm)
+    MainMenu1: TMainMenu;
+    ExitOptomCharts1: TMenuItem;
+    Settings1: TMenuItem;
     WebBrowser1: TTMSFNCWebBrowser;
     procedure FormCreate(Sender: TObject);
   private

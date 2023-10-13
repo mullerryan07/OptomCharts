@@ -11,31 +11,13 @@ type
   TfrmSettings = class(TForm)
     lblTitle: TLabel;
     Image1: TImage;
+    Shape1: TShape;
     Image2: TImage;
     lblText: TLabel;
     MonitorDistance: TLabel;
     Label1: TLabel;
     Label2: TLabel;
-    GroupBox1: TGroupBox;
-    Shape1: TShape;
-    GroupBox2: TGroupBox;
-    Label4: TLabel;
-    Label5: TLabel;
-    GroupBox3: TGroupBox;
-    Label3: TLabel;
-    Label6: TLabel;
-    GroupBox4: TGroupBox;
-    Label7: TLabel;
-    Label8: TLabel;
-    GroupBox5: TGroupBox;
-    Label9: TLabel;
-    Label10: TLabel;
-    GroupBox6: TGroupBox;
-    Label11: TLabel;
-    Label12: TLabel;
-    GroupBox7: TGroupBox;
-    Label13: TLabel;
-    Label14: TLabel;
+    Shape2: TShape;
   private
     { Private declarations }
   public

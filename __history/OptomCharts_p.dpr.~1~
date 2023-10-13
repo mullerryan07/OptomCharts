@@ -2,13 +2,13 @@ program OptomCharts_p;
 
 uses
   Vcl.Forms,
-  Chart_u in 'Chart_u.pas' {OptomCharts};
+  Chart_u in 'Chart_u.pas' {frmChart};
 
 {$R *.res}
 
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
-  Application.CreateForm(TOptomCharts, OptomCharts);
+  Application.CreateForm(TfrmChart, frmChart);
   Application.Run;
 end.
